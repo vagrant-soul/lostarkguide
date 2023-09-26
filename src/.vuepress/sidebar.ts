@@ -4,16 +4,22 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "案例",
+      text: "职业技能加点",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      prefix: "build/",
+      link: "build/",
       children: "structure",
     },
     {
-      text: "文档",
+      text: "技能点收集",
       icon: "book",
-      prefix: "guide/",
+      prefix: "jinengdian/",
+      children: "structure",
+    },
+    {
+      text: "冒险之书",
+      icon: "book",
+      prefix: "maoxian/",
       children: "structure",
     },
     "slides",

@@ -5,8 +5,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
+  title: "命运方舟-LostArk记事本",
+  description: "关于命运方舟的个人记录",
 
   theme,
 

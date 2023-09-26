@@ -1,21 +1,21 @@
 ---
 home: true
 icon: home
-title: 项目主页3333
-heroImage: /logo.svg
+title: 首页
+heroImage: https://s1.ax1x.com/2023/02/05/pS62DJK.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+heroText: 命运方舟记事本
+tagline: 搜集整理命运方舟-LostArk的相关中文攻略资料
 actions:
-  - text: 使用指南 💡
-    link: ./demo/
+  - text: 职业加点 💡
+    link: ./build/
     type: primary
 
-  - text: 文档
-    link: ./guide/
+  - text: 技能点
+    link: ./jinengdian/
 
 highlights:
   - header: 易于安装

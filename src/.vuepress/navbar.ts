@@ -2,29 +2,35 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  "/build/",
   {
-    text: "指南",
+    text: "技能点",
     icon: "lightbulb",
-    prefix: "/guide/",
+    prefix: "/jinengdian/",
     children: [
       {
-        text: "Bar",
+        text: "前期必做",
         icon: "lightbulb",
         prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
+        children: [
+          "baz",
+          "baz1"
+        ],
       },
       {
-        text: "Foo",
+        text: "后期收集",
         icon: "lightbulb",
         prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
+        children: [
+          "ray", 
+          "ray1"
+        ],
       },
     ],
   },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
+  // {text: "V2 文档",icon: "book",link: "https://theme-hope.vuejs.press/zh/",},
+  {text: "常见问题", icon: "info", link: "/question.md"},
+  {text: "致谢", icon: "advance", link: "/thanks.md"},
+  {text: "QQ频道交流", icon: "slides", link: "https://pd.qq.com/s/kl9dor"},
+  {text: "爱发电", icon: "note", link: "https://afdian.net/a/cherishmoon"},
 ]);

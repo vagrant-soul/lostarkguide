@@ -1,9 +1,9 @@
 ---
-title: Markdown 展示
+title: 卡牌大师
 icon: fab fa-markdown
 order: 2
 category:
-  - 使用指南
+  - 职业
 tag:
   - Markdown
 ---

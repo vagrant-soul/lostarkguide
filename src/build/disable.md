@@ -1,9 +1,9 @@
 ---
-title: 布局与功能禁用
+title: 吟游诗人
 icon: gears
 order: 3
 category:
-  - 使用指南
+  - 职业
 tag:
   - 禁用
 
