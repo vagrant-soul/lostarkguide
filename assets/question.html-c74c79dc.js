@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as a,a as e,b as r}from"./app-5c136494.js";const s={},c=e("h2",{id:"前言",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#前言","aria-hidden":"true"},"#"),r(" 前言")],-1),n=[c];function _(i,d){return o(),a("div",null,n)}const f=t(s,[["render",_],["__file","question.html.vue"]]);export{f as default};
